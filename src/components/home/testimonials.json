@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_testimonials",
+  "info": {
+    "displayName": "Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "testimonialCards": {
+      "displayName": "TestimonialCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.testimonial-card",
+      "required": true,
+      "min": 4
+    }
+  }
+}

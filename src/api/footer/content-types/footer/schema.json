@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Rodapé",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "copyright": {
+      "type": "text",
+      "required": true
+    },
+    "social": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info.social-media",
+      "required": true
+    }
+  }
+}

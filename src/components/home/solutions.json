@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_solutions",
+  "info": {
+    "displayName": "Solutions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.overline-card",
+      "required": true
+    },
+    "solutionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-card",
+      "required": true,
+      "min": 4
+    },
+    "lastCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.overline-card",
+      "required": true
+    }
+  }
+}
