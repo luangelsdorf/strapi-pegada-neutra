@@ -1,13 +1,15 @@
 {
-  "collectionName": "components_home_abouts",
+  "collectionName": "components_about_banners",
   "info": {
-    "displayName": "About",
+    "displayName": "Banner",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
       "required": true
     },
     "text": {

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_custom_solutions",
+  "info": {
+    "displayName": "CustomSolutions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "about": {
+      "type": "text",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "required": true,
+      "max": 6,
+      "min": 3
+    }
+  }
+}

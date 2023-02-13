@@ -1,10 +1,16 @@
 {
-  "collectionName": "components_nested_testimonial_cards",
+  "kind": "collectionType",
+  "collectionName": "partners",
   "info": {
-    "displayName": "TestimonialCard",
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Lista de Parceiros",
     "description": ""
   },
-  "options": {},
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
   "attributes": {
     "logo": {
       "type": "media",
@@ -14,15 +20,7 @@
         "images"
       ]
     },
-    "quote": {
-      "type": "text",
-      "required": true
-    },
     "name": {
-      "type": "string",
-      "required": true
-    },
-    "role": {
       "type": "string",
       "required": true
     }

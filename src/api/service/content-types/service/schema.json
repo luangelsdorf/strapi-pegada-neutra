@@ -1,10 +1,11 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "services",
   "info": {
-    "singularName": "home",
-    "pluralName": "homes",
-    "displayName": "Home"
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Serviços",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,26 +18,28 @@
       "component": "common.banner",
       "required": true
     },
-    "about": {
+    "recyclingCredits": {
       "type": "component",
       "repeatable": false,
-      "component": "home.about"
-    },
-    "solutions": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home.solutions"
-    },
-    "testimonials": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home.testimonials",
+      "component": "services.recycling-credits",
       "required": true
     },
-    "partners": {
+    "carbonCredits": {
       "type": "component",
       "repeatable": false,
-      "component": "home.partners",
+      "component": "services.carbon-credits",
+      "required": true
+    },
+    "environmentalActions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.socio-enviromental-actions",
+      "required": true
+    },
+    "customSolutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.custom-solutions",
       "required": true
     }
   }

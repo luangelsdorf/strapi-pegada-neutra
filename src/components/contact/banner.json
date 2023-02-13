@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_home_testimonials",
+  "collectionName": "components_contact_banners",
   "info": {
-    "displayName": "Testimonials",
-    "description": ""
+    "displayName": "Banner"
   },
   "options": {},
   "attributes": {

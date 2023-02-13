@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "Sobre Nós",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.banner",
+      "required": true
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-us",
+      "required": true
+    },
+    "principles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.principles",
+      "required": true
+    }
+  }
+}

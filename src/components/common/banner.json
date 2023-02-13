@@ -1,12 +1,12 @@
 {
-  "collectionName": "components_nested_icon_cards",
+  "collectionName": "components_home_banners",
   "info": {
-    "displayName": "IconCard",
+    "displayName": "Banner",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "cover": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -15,11 +15,9 @@
       ]
     },
     "title": {
-      "type": "text",
-      "required": true
-    },
-    "text": {
-      "type": "text",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
       "required": true
     }
   }

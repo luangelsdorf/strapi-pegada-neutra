@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contato",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.banner",
+      "required": true
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.form",
+      "required": true
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.faq",
+      "required": true
+    }
+  }
+}

@@ -1,18 +1,24 @@
 {
-  "collectionName": "components_nested_testimonial_cards",
+  "kind": "collectionType",
+  "collectionName": "testimonials",
   "info": {
-    "displayName": "TestimonialCard",
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Depoimentos",
     "description": ""
   },
-  "options": {},
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
   "attributes": {
     "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     },
     "quote": {
       "type": "text",

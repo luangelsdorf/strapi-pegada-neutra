@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_contact_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "required": true,
+      "min": 4
+    }
+  }
+}

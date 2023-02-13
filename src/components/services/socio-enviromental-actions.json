@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_socio_enviromental_actions",
+  "info": {
+    "displayName": "EnviromentalActions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-card",
+      "required": true
+    }
+  }
+}

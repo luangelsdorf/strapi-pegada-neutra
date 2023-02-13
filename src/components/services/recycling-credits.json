@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_services_recycling_credits",
+  "info": {
+    "displayName": "RecyclingCredits"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-card",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.text-card",
+      "required": true
+    },
+    "howItWorks": {
+      "type": "text",
+      "required": true
+    },
+    "callToAction": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
