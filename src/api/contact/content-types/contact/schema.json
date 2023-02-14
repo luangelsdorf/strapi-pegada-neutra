@@ -29,6 +29,14 @@
       "repeatable": false,
       "component": "contact.faq",
       "required": true
+    },
+    "formCover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
