@@ -24,19 +24,13 @@
       "component": "contact.form",
       "required": true
     },
-    "faq": {
-      "type": "component",
-      "repeatable": false,
-      "component": "contact.faq",
-      "required": true
-    },
     "formCover": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }

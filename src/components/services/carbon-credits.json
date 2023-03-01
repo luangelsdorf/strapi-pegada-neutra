@@ -7,17 +7,23 @@
   "options": {},
   "attributes": {
     "video": {
-      "allowedTypes": [
-        "videos"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
     },
     "about": {
       "type": "component",
       "repeatable": false,
       "component": "nested.icon-card",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
       "required": true
     }
   }

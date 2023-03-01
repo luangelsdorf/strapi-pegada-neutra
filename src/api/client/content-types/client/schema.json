@@ -21,6 +21,12 @@
     "text": {
       "type": "text",
       "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
+      "required": true
     }
   }
 }
