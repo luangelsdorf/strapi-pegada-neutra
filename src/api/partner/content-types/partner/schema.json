@@ -27,6 +27,17 @@
     "link": {
       "type": "string",
       "required": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::partner-category.partner-category",
+      "inversedBy": "partners"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }
