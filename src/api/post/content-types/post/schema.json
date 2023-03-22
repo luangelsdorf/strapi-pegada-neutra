@@ -38,6 +38,9 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "posts"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
