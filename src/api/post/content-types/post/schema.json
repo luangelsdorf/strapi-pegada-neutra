@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "body": {
-      "type": "richtext",
-      "required": true
-    },
     "slug": {
       "type": "uid",
       "targetField": "title",
@@ -41,6 +37,15 @@
     },
     "date": {
       "type": "date"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
