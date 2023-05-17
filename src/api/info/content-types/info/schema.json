@@ -4,7 +4,8 @@
   "info": {
     "singularName": "info",
     "pluralName": "infos",
-    "displayName": "Informações de Contato"
+    "displayName": "Informações de Contato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,10 +13,6 @@
   "pluginOptions": {},
   "attributes": {
     "phone": {
-      "type": "string",
-      "required": true
-    },
-    "whatsapp": {
       "type": "string",
       "required": true
     }

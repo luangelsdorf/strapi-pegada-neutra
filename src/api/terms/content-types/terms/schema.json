@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "termos",
+  "info": {
+    "singularName": "terms",
+    "pluralName": "termos",
+    "displayName": "Termos e Condições"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
