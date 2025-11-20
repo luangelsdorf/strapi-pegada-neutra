@@ -15,6 +15,13 @@
     "phone": {
       "type": "string",
       "required": true
+    },
+    "recipientEmail1": {
+      "type": "string",
+      "required": true
+    },
+    "recipientEmail2": {
+      "type": "string"
     }
   }
 }
